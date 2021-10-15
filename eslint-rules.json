@@ -1,0 +1,9 @@
+"rules": {
+    "semi": ["error", "always"],    //semi-colon after every statement
+    "quotes": ["error", "single"],  //strings only use single quotes
+    "no-const-assign": ["error"],   //disallow reassignment of const variables
+    "no-extra-semi": ["error"],      //disallows unneccessary semi-colons
+    "func-style": ["error", "expression"],   //requires use of function expressions instead of function declarations
+    "space-before-function-paren": ["error", "always"], //requires a space before the function parenthesis
+    "space-before-blocks": ["error"]        //requires a space before the curly braces when defining a function
+}
